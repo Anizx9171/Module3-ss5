@@ -1,0 +1,63 @@
+public class Student {
+    private int StudentId;
+    private String studentName;
+    private boolean sex;
+    private String className;
+    private int age;
+    private String address;
+
+    private Student() {
+    }
+
+    public int getStudentId() {
+        return StudentId;
+    }
+
+    public void setStudentId(int studentId) {
+        StudentId = studentId;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public boolean isSex() {
+        return sex;
+    }
+
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void chao(){
+        System.out.println("Chào mọi người mình là " + this.studentName);
+    }
+}
